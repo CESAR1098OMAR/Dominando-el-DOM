@@ -1,0 +1,65 @@
+*{
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(1, 0, 44);
+}
+
+.titulo{
+    background-color: rgb(127, 147, 207);
+    display: flex;
+    justify-content: center;
+    margin:1rem 30rem;
+
+}
+
+.generator {
+    margin-right: 30rem;
+    margin-left: 30rem;
+    background-color: rgb(127, 147, 207);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.password-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.generator .contrasena .largo{
+    display: flex;
+    justify-content: center;
+}
+
+.generator .contrasena .casillas{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+.generator .contrasena .boton{
+    display: flex;
+    justify-content: center;
+    }
+
+button{
+    background-color: royalblue;
+    border: none;
+    background-color: rgb(116, 147, 239);
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+button:hover{
+    background-color: rgb(60, 85, 198);
+    color: aliceblue;
+}

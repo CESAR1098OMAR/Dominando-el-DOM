@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="./apps/apps.js" defer></script>
+    <title>Dominando el DOM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titulo">
+        <h2>Genera tu contraseña</h2>
+    </div>
+
+    <div class="generator">
+        <div class="password-container">
+            <h1>Abracadabra</h1>
+            <button id="copy-password">Copiar</button>
+        </div>
+
+        <form class="contrasena">
+            <div class="largo">
+                <label for="input-password-length">Largo de la contraseña</label>
+                <div class="range-container">
+                    <input type="range" min="8" max="24" id="input-password-length">
+                    <h1>8</h1>
+                </div>
+            </div>
+            <div class="casillas">
+                <ul>
+                    <li><label><input type="checkbox" id="include-uppercase"> Incluir mayúsculas</label></li>
+                    <li><label><input type="checkbox" id="include-numbers"> Incluir números</label></li>
+                    <li><label><input type="checkbox" id="include-symbols"> Incluir símbolos</label></li>
+                </ul>
+            </div>
+            
+            <div class="boton">
+                <button>Generar</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
